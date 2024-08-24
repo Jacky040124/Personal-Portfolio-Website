@@ -3,7 +3,7 @@ import SectionHeading from './Section-Heading';
 
 export default function About() {  
   return (
-    <section id="about" className=" w-auto mb-28 max-w-[45rem] text-center leading-8 sm:mb-40 scroll-mt-28 px-4 sm:px-0">
+    <section id="about" className=" w-auto mb-28 max-w-[40rem] text-center leading-8 sm:mb-40 scroll-mt-28 px-4 sm:px-0">
       <div className="font-mono flex flex-col">
         <SectionHeading> About Me </SectionHeading>
 
