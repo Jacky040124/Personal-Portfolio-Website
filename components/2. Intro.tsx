@@ -21,7 +21,7 @@ export default function Intro() {
         </div>
       </div>
 
-      <div className="w-auto max-w-[800px]">
+      <div className="w-auto">
 
         <p className="mt-4 mb-6 text-lg sm:text-xl font-mono text-center !leading-relaxed"> 
           <b>Hello🤗, My name is Jacky Zhong</b>, Second-year Statistics student at the University of British Columbia, passionate about leveraging data to drive meaningful insights and solutions. I am dedicated to developing innovative software and statistical models that contribute to a more efficient and informed future. Excited to collaborate on <b>impactful projects and create opportunities</b> that empower both my peers and the community.
