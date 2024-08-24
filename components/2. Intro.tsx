@@ -5,30 +5,24 @@ import { FaLinkedin, FaInstagram, FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {  
   return (
-    <section id="home" className="scroll-mt-[100rem] p-4"> 
-      
-      <div className="flex flex-col items-center justify-center sm:p-10 p-4">
+    <section id="home" className="scroll-mt-[5rem] p-4 sm:p-10"> 
+
+      <div className="flex flex-col items-center justify-center">
         <div> 
           <Image 
             src="/Jacky.jpeg" 
             alt="Jacky Photo" 
-            width='192'
-            height='192'
-            quality='95'
+            width={192}
+            height={192}
+            quality={95}
             priority={true}
             className="h-32 w-32 sm:h-48 sm:w-48 rounded-full border-[0.35rem] border-white shadow-xl"
           /> 
         </div>
       </div>
 
-      <p className="mb-6 mt-4 text-lg sm:text-xl font-mono !leading-[1.5] text-center"> 
-        <b> Hello🤗, My name is Jacky Zhong</b>
-        , Second-year Statistics student at the University of British Columbia, 
-        passionate about leveraging data to drive meaningful insights and solutions. 
-        I dedicated to developing innovative software and statistical models that 
-        contribute to a more efficient and informed future. Excited to collaborate on 
-        <b> impactful projects and create opportunities </b>
-        that empower both my peers and the community.
+      <p className="mt-4 mb-6 text-lg sm:text-xl font-mono text-center !leading-relaxed"> 
+        <b>Hello🤗, My name is Jacky Zhong</b>, Second-year Statistics student at the University of British Columbia, passionate about leveraging data to drive meaningful insights and solutions. I am dedicated to developing innovative software and statistical models that contribute to a more efficient and informed future. Excited to collaborate on <b>impactful projects and create opportunities</b> that empower both my peers and the community.
       </p>
 
       <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
