@@ -56,10 +56,10 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Project1",
+    title: "Webpage Summarizer ",
     description:
-      "description",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      " A Chrome extension that leverages AI to quickly distill web content into concise summaries",
+    tags: ["Vite","React", "Typescript","Chrome API","Cohere AI API"],
     imageUrl: Project1,
   },
   {
